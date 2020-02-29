@@ -1,0 +1,40 @@
+/* Where */
+.where {
+    padding: 100px 0 100px 0;
+    overflow: auto;
+    min-height: 80vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;;
+}
+
+.where-text {
+    float: right;
+    width: 50%;
+}
+
+/* Partie Media */
+
+@media only screen and (max-width: 500px) {
+    .where {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .where-img {
+        float: none;
+        width: 80%;
+        border: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .where-text {
+        float: none;
+        width: 100%;
+    }
+}

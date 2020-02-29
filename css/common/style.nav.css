@@ -1,0 +1,72 @@
+/* header */
+
+.header {
+    background: #333;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav span {
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.header nav span a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover {
+    background: #444;
+}
+
+.active {
+    background: #444;
+}
+
+
+/* Partie media */
+
+@media only screen and (max-width:500px) {
+    .header nav span {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    .header nav span a {
+        font-size: 1.3rem;
+    }
+
+    .header nav ul {
+        float: none;
+    }
+
+    .header nav ul li {
+        float: none;
+    }
+
+    .header nav ul li a {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+}
