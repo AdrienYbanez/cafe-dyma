@@ -1,0 +1,37 @@
+/* Contact */
+
+.contact {
+    padding: 100px 0 10px 0;
+    min-height: 80vh;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.contact-form-container form label {
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form-container form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+    min-height: 80px;
+}
+
+
+/* Partie Media */
+@media only screen and (max-width:500px) {
+    .contact {
+        padding: 70px 0 10px 0;
+    }
+}
