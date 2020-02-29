@@ -84,6 +84,29 @@ a {
     max-width: 1000px;
 }
 
+.underline {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ddd;
+}
+
+.chip {
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    border-radius: 100%;
+
+    background: #333;
+    color: white;
+}
+
+.chip-purple {
+    background: #9C27B0;
+}
+
+.chip-brown {
+    background: rgb(150, 74, 52);
+}
+
 /* header */
 
 .header {
@@ -181,6 +204,56 @@ a {
     padding: 100px 0px 100px 0px;
     text-align: center;
 }
+
+/* Where */
+.where {
+    padding: 100px 0 100px 0;
+    overflow: auto;
+    min-height: 80vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;;
+}
+
+.where-text {
+    float: right;
+    width: 50;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 100px 0 10px 0;
+    min-height: 80vh;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form-container form label {
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form-container form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+    min-height: 80px;
+}
+
 
 
 /* footer */
